@@ -1,0 +1,150 @@
+* {
+  font-family: "Rimouski";
+}
+
+body {
+  background-color: #293251;
+}
+
+.container {
+  width: 400px;
+  min-width: 400px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: block;
+  transform: translate(calc(50vw - 50%), calc(50vh - 50%));
+}
+
+.app-title {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.app-title p {
+  text-align: center;
+  padding: 1.25rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  color: #293251;
+}
+
+.notification {
+  background-color: #f8d7da;
+  display: none;
+}
+
+.notification p {
+  color: #721c24;
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.weather-container {
+  width: 100%;
+  background-color: #d9e7f9;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.weather-icon {
+  width: 100%;
+}
+
+.weather-icon img {
+  display: block;
+  margin: 0 auto;
+}
+
+.temperature-value {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.extra{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.temperature-value p {
+  padding: 0;
+  margin: 0;
+  color: #293251;
+  font-size: 4rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.small p{
+  padding: 0.3rem;
+  margin: 0;
+  color: #293251;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.temperature-value span {
+  color: #293251;
+  font-size: 2.5rem;
+}
+
+.small p span {
+  font-size: 1.25rem;
+  color: #293251;
+}
+
+.temperature-description p {
+  padding: 0.75rem;
+  margin: 0;
+  color: #293251;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.extra2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.extra2 p{
+  padding: 0.5rem;
+}
+
+.extra2 .small{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.material-symbols-outlined {
+  font-size: 2.5rem;
+  color: #293251;
+  padding: 0.5rem;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.location p {
+  margin: 0;
+  padding: 0.75rem;
+  color: #293251;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 35vw;
+  }
+}

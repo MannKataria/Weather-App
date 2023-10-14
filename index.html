@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="font/Rimouski.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="app-title"><p>Weather</p></div>
+      <div class="notification"></div>
+      <div class="weather-container">
+        <div class="weather-icon">
+          <img src="icons/unknown.png" alt="unknown" />
+        </div>
+        <div class="temperature-value">
+          <p>--°<span>C</span></p>
+          <div class="extra">
+            <div class="minTemp small">
+              <p>L: --</p>
+            </div>
+            <div class="maxTemp small">
+              <p>H: --</p>
+            </div>
+          </div>
+        </div>
+        <div class="temperature-description">
+          <p>-</p>
+        </div>
+        <div class="extra2">
+          <div class="humidity small">
+            <span class="material-symbols-outlined"> water_drop </span>
+            <p>- <span>%</span></p>
+          </div>
+          <div class="pressure small">
+            <span class="material-symbols-outlined">
+              swap_driving_apps_wheel
+            </span>
+            <p>- <span>kPa</span></p>
+          </div>
+          <div class="windSpeed small">
+            <span class="material-symbols-outlined"> air </span>
+            <p>- <span>m/s</span></p>
+          </div>
+        </div>
+        <div class="location">
+          <p>-</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
